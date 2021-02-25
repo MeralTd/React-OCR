@@ -5,14 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.min.css';
 import 'filepond/dist/filepond.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { MyThemeProvider } from "./ThemeContext";
 
 ReactDOM.render(
   <React.StrictMode>
-          <App />
-    {/* <MyThemeProvider>
       <App />
-    </MyThemeProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
